@@ -1,0 +1,1 @@
+第一步：生成package.json 文件,新建一个工程目录，控制台进入该目录，执行cnpm init，生成package.json文件
