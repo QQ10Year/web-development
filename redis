@@ -13,3 +13,6 @@ https://www.cnblogs.com/shizhengwen/p/9283973.html
 
 window版本的事件模型，相对应与linux epoll
 https://github.com/microsoftarchive/redis/blob/3.0/src/ae_wsiocp.c
+
+redis事件
+https://blog.csdn.net/men_wen/article/details/71514524
