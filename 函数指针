@@ -1,0 +1,9 @@
+1：如果定义函数指针是这种形式
+typedef int aeTimeProc(struct aeEventLoop *eventLoop, long long id, void *clientData);
+使用时就需要
+aeTimeProc *timeProc;
+
+2：如果定义函数指针是这种形式
+typedef int （aeTimeProc*）(struct aeEventLoop *eventLoop, long long id, void *clientData);
+使用时就需要
+aeTimeProc timeProc;
