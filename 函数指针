@@ -8,3 +8,4 @@ typedef int （aeTimeProc*）(struct aeEventLoop *eventLoop, long long id, void 
 使用时就需要
 aeTimeProc timeProc;
 test
+test2
