@@ -27,3 +27,6 @@ entry: {
     app:["babel-polyfill", "./src/main.js"]
   },
 
+
+懒加载的方法：
+resolve => require(['./iter.vue'], resolve) 这种写法已过时了，现在用 () => import('./iter.vue')
